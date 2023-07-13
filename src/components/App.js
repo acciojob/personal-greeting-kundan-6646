@@ -12,7 +12,7 @@ const App = () => {
             setName(e.currentTarget.value);
           }}/>
 
-          <p>{'Hello n!'}</p>
+          <p>{`Hello ${name}!`}</p>
       </div>
     )
 }
